@@ -1,0 +1,26 @@
+footer {
+  height: 28px;
+  .container {
+    display: flex;
+    justify-content: center;
+
+    p {
+      font: {
+        size: 0.7rem;
+        weight: 500;
+      }
+      color: $border-color;
+      a {
+        text-decoration: none;
+        color: $border-color;
+        text-transform: capitalize;
+        &:hover {
+          color: $white-color;
+        }
+      }
+      span {
+        color: $border-color;
+      }
+    }
+  }
+}
